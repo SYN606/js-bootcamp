@@ -26,3 +26,53 @@ a[2] = "Given";
 
 // console.log(a[2]);
 
+
+
+
+// Array methods 
+
+let num = [21, 92, 53, 47, 45]
+
+// converting arrays to string
+
+
+let b = num.toString()
+
+// console.log(b);
+// console.log(typeof b);
+
+
+// join method joins the method all elements of an array using a seprator 
+
+let c = num.join("-");
+
+// console.log(c);
+// console.log(typeof c);
+
+// pop methods are used to pop out the last element of an array 
+
+let r = num.pop()
+
+// console.log(r);
+// console.log(typeof r);
+
+
+// push add a new element in the end of an array
+
+let m = num.push(55);
+
+// console.log(m);
+// console.log(typeof m);
+
+
+// shift is used for removing the first element of an array and unshift is used to add a new element at first position
+
+let s = num.shift();
+
+let un = num.unshift(35);
+
+console.log(s);
+console.log(un);
+
+
+console.log(num);
